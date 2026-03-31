@@ -42,3 +42,20 @@ nav ul{
     gap: 30px;
 }
 
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+.card {
+    background-color: #1a1a1d;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+ul.custom-list,
+ol.custom-list{
+    margin-bottom: 10px;
+}
