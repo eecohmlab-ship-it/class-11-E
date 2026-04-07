@@ -17,6 +17,86 @@
             <li><a href="forms.html">Interactive Forms</a></li>
         </ul>
     </nav>
-    <h1>This is forms page</h1>
+    <main class="container">
+        <section class="card">
+            <form action="#">
+                <div class="form-group">
+                    <label> Your Name:</label>
+                    <input type="text" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Your Email:</label>
+                    <input type="email"  placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label> Password:</label>
+                    <input type="password" placeholder="**************" required>
+                </div>
+                <div class="form-group">
+                    <label>Age:</label>
+                    <input type="number" min="12" max="80" value="16">
+                </div>
+                <div class="form-group">
+                    <label>Select level:</label>
+                    <select>
+                        <option value="class 9">IX</option>
+                        <option value="class 10">X</option>
+                        <option value="class 11">XI</option>
+                        <option value="class 12">XII</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Interests:</label>
+                    <label style="display: inline-block; margin-right: 15px;">HTML
+                        <input type="checkbox" name="interest" value="html">
+                    </label>
+                    <label  style="display: inline-block; margin-right: 15px;">CSS
+                        <input type="checkbox" name="interest" value="css">
+                    </label>
+                    <label  style="display: inline-block; margin-right: 15px;">JS
+                        <input type="checkbox" name="interest" value="js">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label> Gender:</label>
+                    <label>Male
+                        <input type="radio" name="gender" value="M">
+                    </label>
+                     <label>Female
+                        <input type="radio" name="gender" value="F">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Pick a Color:</label>
+                    <input type="color" value="red" style="height: 40px; width: 60px; padding: 2px;">
+                </div>
+                    <div class="form-group">  
+                    <label>Skill range:</label>
+                    <input type="range" min="1" max="5">
+                </div>  
+                <div class="form-group">    
+                    <label>Date of Birth:</label>
+                    <input type="date">
+                </div>
+                <div class="form-group">    
+                    <label>Upload your cv:</label>
+                    <input type="file" style="border: none; background: transparent;">
+             
+             
+             
+                </div>
+                <div class="form-group">   
+                    <label>Discription:</label>
+                    <textarea rows="4" placeholder="give a discription"></textarea>
+                </div> 
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit Form</button>
+                    <button type="reset" class="btn" style="background-color: #444; color: white; margin-left: 10px;">Reset</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
 </body>
 </html>

@@ -16,6 +16,110 @@
             <li><a href="forms.html">Interactive Forms</a></li>
         </ul>
     </nav>
-    <h1>This is tables page</h1>
+    <main class="container">
+        <section class="card">
+            <h2>Standart tables</h2>
+            <p>Tables are used to display data in rows and columns</p>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Topic</th>
+                    <th>Progress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>HTML</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>CSS</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>JS</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>PHP</td>
+                    <td>50%</td>
+                </tr>
+            </tbody>
+        </table>
+        <section class="card">
+            <h2>complex tables (colspan & rowspan)</h2>
+            <p>you can merge cells using
+                <code>colspan</code> (horizontal) and <code>rowspan </code> (vertical)
+            </p>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Topic</th>
+                    <th>Progress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td rowspan="2">HTML</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>JS</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td colspan="2">PHP</td>
+                  
+                </tr>
+            </tbody>
+            <table>
+                <tr>
+                    <td colspan="2" rowspan="2">1</td>
+                    <td rowspan="2">3</td>
+                    <td>4</td>
+                    <td rowspan="5">-</td>
+                </tr>
+                <tr>
+                    
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td colspan="4">20</td>
+                </tr>
+                
+            </table>
+
+
+
+
+
+    </main>
 </body>
 </html>
